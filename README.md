@@ -193,6 +193,3 @@ The following lists the areas of responsibility that were lead by each group mem
 * Java JFrame Player
 * Generate frames for video players from macroblocks
 
-# Jira links (Not applicable)
-All source code and relevent data is in the bitbucket repository, in the Master branch.
-	
