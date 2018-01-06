@@ -162,10 +162,10 @@ The following lists the areas of responsibility that were lead by each group mem
 
 #### Akash Mehta
 
-*Main function
-*Graphical User Interface
-*Image Object preprocessing, and macroblock division
-*Generate frames for video players from macroblocks
+* Main function
+* Graphical User Interface
+* Image Object preprocessing, and macroblock division
+* Generate frames for video players from macroblocks
 
 #### Muhammad Zuhayr Raghib
 
