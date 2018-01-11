@@ -4,7 +4,6 @@
 
 This is a project for encoding and decoding a compressed video file by taking up to 100 images of various formats, and stitching them in sequence. We have taken MPEG compression methods as a reference, but chose to create our own codec to explore options without strict restrictions. 
 
-
 ## Group Members
 
 	* Qifan He (heqf@bu.edu)
@@ -27,17 +26,14 @@ The allFrames datastructure was designed for quick access. By dividing the frame
 
 This base datastructure is passed through several methods in stages, and is modified in place at each stage.
 
-
 #### DCT / IDCT Transforms
 
 The DCT method takes a macroblock and performs DCT with a quantization table determined by the quality setting input from the GUI. The DCT is used to remove high frequency noise within the image and assist with the interframe compression. 
 The algorithm for the 2d-DCT was the common row column method.
 
-
 #### Compression
 
  When reading the raw RGB values of jpeg images, for example, highly increases the size of the resulting byte array (see ByteStream generation). Therefore, to compensate for this, we decided to use lossy compression methods to achieve higher levels of compression, rather than lossless methods such as lempel-ziv compression.
-
 
 
 ##### Inter-Frame Compression
